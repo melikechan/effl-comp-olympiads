@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 int main(void) {
- 	// Varsayılan girdi-çıktı
- 	printf("hello,world");
+ 		// Varsayılan girdi-çıktı
+ 		printf("hello,world");
 
- 	// Satır atlamak için \n
- 	printf("Merhaba\ndünya!");
+ 		// Satır atlamak için \n
+ 		printf("Merhaba\ndunya!\n");
+
+		// backspace için \b
+		printf("Merhaba\b dunya!\n");
 
   	// Bir cümleyi ayırabiliriz böyle
-  	printf("Bakın böylelikle "
-  	"ayrı ayrı yazı"
-  	"yazdım.\n"
+		printf("Bakin boylelikle "
+  	"ayri ayri yazi"
+  	"yazdim.\n"
   	);
 
- 	// Tırnak işaretlerini yazdırmak için
-  	printf("Burası \"olimpiyat\" dersi.");
+ 		// Tırnak işaretlerini yazdırmak için
+  	printf("Burasi \"olimpiyat\" dersi.");
   	return 0;
 }
