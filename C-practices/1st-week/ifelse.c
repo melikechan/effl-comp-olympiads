@@ -23,8 +23,9 @@ int main(void) {
 	else if (girilen >= 20 && girilen < 50) {
 		printf("20'den buyuk, 50'denk kucuk");
 	}
+	// Eğer girilen sayı 50'den büyük ise
 	else {
-		printf("50'den buyuk.")
+		printf("50'den buyuk.");
 	}
  	return 0;
 }
