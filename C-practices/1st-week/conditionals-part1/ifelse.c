@@ -27,5 +27,7 @@ int main(void) {
 	else {
 		printf("50'den buyuk.");
 	}
+
+	// && Ve || veya demek (mantıksal operatörler)
  	return 0;
 }
