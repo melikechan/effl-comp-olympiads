@@ -20,7 +20,10 @@ int main(void) {
 	  printf("\\'ye bir seyler ekleyerek ozel karakterleri yazdirabiliriz.\n");
 
 	  // Soru işareti yazdırmak için alternatif
-	  printf("Oyleyse boyle midir\?\n");
+	  printf("Oyleyse boyle midir\?\?\?\n");
+		printf("Oyleyse boyle midir???\n");
 
+		printf("Press any key to continue...");
+		getchar();
     return 0;
 }
