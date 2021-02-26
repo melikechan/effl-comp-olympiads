@@ -7,14 +7,15 @@
 
 Eskişehir Fatih Fen Lisesi'nin bilgisayar olimpiyatları reposudur. Kaynaklar, kodlar buradan paylaşılacaktır. (derli toplu olması açısından)
 
-## İçerik:
+## İçerik
 
 - Programlama 101
 
-### C:
+### C
 
 1. Ders:
+
 - [Basit I/O](/C-practices/1st-week/basic-io)
-- [Değişkenler](/C-practices/1st-week/Variables/degiskenler.c), [sabit değerler](/C-practices/1st-week/Variables/sabit_degerler.c) (const / constant)
-- İşlemler (aritmetik ve mantıksal)
-- Koşullamalar (if-else)
+- [Değişkenler](/C-practices/1st-week/Variables/degiskenler.c), [sabit değerler](/C-practices/1st-week/Variables/sabit_degerler.c) (const / constant), [değişken türleri](/C-practices/1st-week/Variables/degisken_turleri.c)
+- Aritmetik operatörler, mantıksal operatörler
+- [Koşullamalar](/C-practices/1st-week/conditionals-part1) (if-else)
