@@ -15,6 +15,6 @@ Eskişehir Fatih Fen Lisesi'nin bilgisayar olimpiyatları reposudur. Kaynaklar, 
 
 1. Ders:
 - [Basit I/O](main/C-practices/1st-week/basic-io)
-- [Değişkenler](), [sabit değerler](main/C-practices/1st-week/sabit_degerler.c) (const / constant)
+- [Değişkenler](main/C-practices/1st-week/degiskenler.c), [sabit değerler](main/C-practices/1st-week/sabit_degerler.c) (const / constant)
 - İşlemler (aritmetik ve mantıksal)
 - Koşullamalar (if-else)
