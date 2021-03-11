@@ -2,7 +2,8 @@
 
 int main(void)
 {
-  /*
+    int a = 45, b = 20;
+    /*
   İşlemler:
     + -> toplama operatörü
     - -> çıkarma operatörü 
@@ -19,5 +20,30 @@ int main(void)
       d /= i -> d = d / i
       d %= i -> d = d % i
   */
-  return 0;
+    // Aritmetik operatörler
+    printf("%d\n", a + b);
+    printf("%d\n", a - b);
+    printf("%d\n", a * b);
+    printf("%d\n", a / b);
+    printf("%d\n", a % b);
+
+    a += b;
+    printf("%d\n", a);
+
+    a = 45;
+    a -= b;
+    printf("%d\n", a);
+
+    a = 45;
+    a *= b;
+    printf("%d\n", a);
+
+    a = 45;
+    a /= b;
+    printf("%d\n", a);
+
+    a = 45;
+    a %= b;
+    printf("%d\n", a);
+    return 0;
 }
