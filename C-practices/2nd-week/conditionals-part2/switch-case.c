@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    // Switch-case, alternatif bir koşullama yöntemidir.
+    /* Switch-case, alternatif bir koşullama yöntemidir. */
     /* Mesela bazı sabit durumlarda programımızın bir şey yapmasını istiyorsak kullanabiliriz. 
         bu sabit durumlar harici durumlarda da default kullanabiliriz.
         */

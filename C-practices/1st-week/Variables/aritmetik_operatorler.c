@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int a = 45, b = 20;
-    /*
+	int a = 45, b = 20;
+	/*
        İşlemler:
           + -> toplama operatörü
           - -> çıkarma operatörü 
@@ -20,36 +20,37 @@ int main(void)
            d /= i -> d = d / i
            d %= i -> d = d % i
     */
-    printf("%d\n", a + b);
-    printf("%d\n", a - b);
-    printf("%d\n", a * b);
-    printf("%d\n", a / b);
-    printf("%d\n", a % b);
-    
-    // a ile b'yi toplayıp sonucu a'ya atar.
-    a += b;
-    printf("%d\n", a);
-    
-    a = 45;
-    
-    // a'dan b'yi çıkarıp sonucu a'ya atar.
-    a -= b;
-    printf("%d\n", a);
+	printf("%d\n", a + b);
+	printf("%d\n", a - b);
+	printf("%d\n", a * b);
+	printf("%d\n", a / b);
+	printf("%d\n", a % b);
 
-    a = 45;
-    
-    // a ile b'yi çarpıp sonucu a'ya atar.
-    a *= b;
-    printf("%d\n", a);
+	/* a ile b'yi toplayıp sonucu a'ya atar. */
+	a += b;
+	printf("%d\n", a);
 
-    a = 45;
-    
-    // a'yı b'ye bölüp sonucu a'ya atar.
-    a /= b;
-    printf("%d\n", a);
+	a = 45;
 
-    a = 45;
-    a %= b;
-    printf("%d\n", a);
-    return 0;
+	/* a'dan b'yi çıkarıp sonucu a'ya atar. */
+	a -= b;
+	printf("%d\n", a);
+
+	a = 45;
+
+	/* a ile b'yi çarpıp sonucu a'ya atar. */
+	a *= b;
+	printf("%d\n", a);
+
+	a = 45;
+
+	/* a'yı b'ye bölüp sonucu a'ya atar. */
+	a /= b;
+	printf("%d\n", a);
+
+	// a'uo
+	a = 45;
+	a %= b;
+	printf("%d\n", a);
+	return 0;
 }
