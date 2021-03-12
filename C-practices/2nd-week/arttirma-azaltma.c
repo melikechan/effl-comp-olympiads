@@ -2,28 +2,27 @@
 
 int main(void)
 {
-    // degisken++ önce değişkenin değerini alır, kullanır, sonra da arttırır.
+	/* degisken++ önce değişkenin değerini alır, kullanır, sonra da arttırır. */
 
-    int a = 0, b;
+	int a = 0, b;
 
-    printf("a: %d\n", a);
+	printf("a: %d\n", a);
 
-    b = a++; // once b, a'ya eşit olur, sonra da a'nın değeri bir artar
+	b = a++; /* once b, a'ya eşit olur, sonra da a'nın değeri bir artar. */
 
-    printf("b: %d\n", b);
-    printf("a: %d\n", a);
+	printf("b: %d\n", b);
+	printf("a: %d\n", a);
 
+	/* ++degisken önce değişkenin değerini arttırır, sonra alır, kullanır. */
 
-    // ++degisken önce değişkenin değerini arttırır, sonra alır, kullanır.
+	a = 0;
 
-    a = 0;
+	printf("a: %d\n", a);
 
-    printf("a: %d\n", a);
+	b = ++a; /* once b, a'ya eşit olur, sonra da a'nın değeri bir artar. */
 
-    b = ++a; // once b, a'ya eşit olur, sonra da a'nın değeri bir artar
+	printf("b: %d\n", b);
+	printf("a: %d\n", a);
 
-    printf("b: %d\n", b);
-    printf("a: %d\n", a);
-
-    return 0;
+	return 0;
 }
