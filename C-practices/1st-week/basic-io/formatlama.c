@@ -2,31 +2,44 @@
 
 int main(void)
 {
-	// Formatlama dediğimiz şey, verilen değişkenleri belirli bir şekilde yazdırmaktır.
+	/* Formatlama, verilen değişkenleri belirli bir biçimde yazdırmaktır. */
 
-	// Tam sayıları formatlamak için kullanılır.
+	/* %d Tam sayıları formatlamak için kullanılır. */
 	printf("%i %d\n", 100, 200);
 
-	// Floatları formatlamak için kullanılır.
+	/* %f ya da %e float tipindeki değişkenleri formatlamak için kullanılır. */
 	printf("%f, %e\n", 436256.56556, 394338.3894);
 
-	// Doubleları formatlamak için kullanılır.
+	/* %lf ise double tipindeki değişkenleri formatlamak için kullanılır. */
 	printf("%lf\n", 4334837634673438348.488);
 
-	// karakterleri formatlamak için kullanılır
+	/* %c karakterleri formatlamak için kullanılır. */
 	printf("%c\n", 'a');
 
-	// kelimeleri formatlamak için kullanılır
+	/* %s kelimeleri formatlamak için kullanılır. */
 	printf("%s\n", "guten morgen");
 
-	// sekizlik sayıları formatlamak için kullanılır
+	/* %o sayıları sekizlik tabana göre yazdırmak/formatlamak için kullanılır. */
 	printf("%o\n", 8);
 
-	// onaltılık sayıları formatlamak için kullanılır
+	/* %x sayıları onaltılık tabana göre yazdırmak/formatlamak için kullanılır. */
 	printf("%x\n", 15);
 
-	// Belirli bir genişliğe sıkıştırmak için %tamsayı(format) kullanılır.
-	printf("%04d %03d %02d %04d\n%20s\n%s\n", 10000, 20, 1, 2000, "good night", "good night");
+	/* 	Değişkenleri belirli bir aralığa sığdırmak için %tamsayı(format) kullanılır.
+		* Eğer değişkenin basamak/karakter sayısı o eğer belirtilen 
+		basamak/karakter sayısından küçükse o basamak aralığına sığdırır. 
+		Eğer değişkenin basamak/karakter sayısı formatlamada kullanılan 
+		basamak/karakter sayısından küçük ise hiçbir şey yapmaz, ekrana aynı şekilde yazdırır.
+	*/
+	printf("%04d %03d %02d %04d\n%20s\n%3s\n", 10000, 20, 1, 2000, "good night", "good night");
 
+	/* Ondalık sayılarda noktadan sonra basamak sayısını ayarlamak için %.tamsayı(format) kullanılır.
+	   * Eğer değişkenin noktadan sonraki basamak sayısı eğer o belirtilen basamak sayısından küçükse
+	   o basamak sayısına tamamlamak için 0 eklenir. 
+	   * Eğer değişkenin noktadan sonraki basamak sayısı belirtilen basamak sayısından küçük ise
+	   belirtilen basamak sayısına yuvarlar.
+	*/
+
+	printf("%.2f, %.4f %f", 3.145, 2.5, 6.23);
 	return 0;
 }
