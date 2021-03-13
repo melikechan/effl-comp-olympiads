@@ -5,7 +5,8 @@ int main(void)
 	float daire_yaricapi;
 	scanf("%f", &daire_yaricapi);
 
-	/*	Bir değişkeni anımlarken tipinden önce "const" yani "constant"
+	/*
+		Bir değişkeni anımlarken tipinden önce "const" yani "constant"
 		getirilirse, o değişken bir daha değiştirilemez.
 		"const" ifadesinin dışında değişken tanımında herhangi bir değişiklik
 		yoktur.
