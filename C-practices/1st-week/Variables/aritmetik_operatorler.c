@@ -6,7 +6,7 @@ int main(void)
 	/*
        İşlemler:
           + -> toplama operatörü
-          - -> çıkarma operatörü 
+          - -> çıkarma operatörü
           * -> çarpma operatörü
           / -> bölme operatörü
           % -> modül operatörü (bir sayıyla bölümünden kalanı buldurmaya yarar)
@@ -48,7 +48,6 @@ int main(void)
 	a /= b;
 	printf("%d\n", a);
 
-	// a'uo
 	a = 45;
 	a %= b;
 	printf("%d\n", a);

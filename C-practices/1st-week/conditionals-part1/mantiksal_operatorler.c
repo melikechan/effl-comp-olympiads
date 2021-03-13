@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	/* &&, mantıktaki adıyla ve'dir. Her ikisi de doğru ise 1, herhangi biri yanlış ise 0 olur. 
+	/* &&, mantıktaki adıyla ve'dir. Her ikisi de doğru ise 1, herhangi biri yanlış ise 0 olur.
         Eğer ilk ifade yanlış ise ikinci ifadeye bakılmaz, direkt 0 döndürür.
 
         == -> eşittir
@@ -36,7 +36,7 @@ int main(void)
 		printf("bu yanlis\n");
 	}
 
-	/* !, mantıktaki adı ile değil'dir. Eğer bir ifade doğru ise 0, yanlış ise 1 döndürmesini sağlar. 
+	/* !, mantıktaki adı ile değil'dir. Eğer bir ifade doğru ise 0, yanlış ise 1 döndürmesini sağlar.
         Mantıksal ifadenin başına gelir.
     */
 
