@@ -5,12 +5,12 @@ int main(void)
 	int yas;
 	scanf("%d", &yas);
 
-	// 1. seçenek
+	/* 1. seçenek */
 	if (yas < 0)
 	{
 		printf("Yas 0'dan kucuk olamaz!\n");
 	}
-	else if (yas < 4)
+	else if (yas > 0 && yas < 4)
 	{
 		printf("Bebek\n");
 	}
@@ -35,7 +35,7 @@ int main(void)
 		printf("Yasli\n");
 	}
 
-	// 2. seçenek
+	/* Bu da alternatif bir çözüm. */
 	if (yas < 0)
 	{
 		printf("Yas 0'dan kucuk olamaz!\n");

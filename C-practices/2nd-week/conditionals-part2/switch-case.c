@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    /* Switch-case, alternatif bir koşullama yöntemidir. */
-    /* Mesela bazı sabit durumlarda programımızın bir şey yapmasını istiyorsak kullanabiliriz. 
+    /* Switch-case, alternatif bir koşullama yöntemidir.
+       Mesela bazı sabit durumlarda programımızın bir şey yapmasını istiyorsak kullanabiliriz.
         bu sabit durumlar harici durumlarda da default kullanabiliriz.
         */
 
@@ -32,8 +32,8 @@ int main(void)
        ** DİKKAT EDİLMESİ GEREKENLER: **
     */
 
-    /* Case'lerden sonra eğer birden fazla değerin aynı işlemi yapmasını 
-		istiyorsak break koymayabiliriz fakat eğer yalnızca bir değer için 
+    /* Case'lerden sonra eğer birden fazla değerin aynı işlemi yapmasını
+		istiyorsak break koymayabiliriz fakat eğer yalnızca bir değer için
         o işlemi yaptıracaksak break koymalıyız.
 		örneğin: */
     switch (i)
@@ -45,7 +45,7 @@ int main(void)
         printf("5\n");
         break;
     case 7:
-        printf("7\n"); /* break olmadığı için 
+        printf("7\n"); /* break olmadığı için
             case 7'yi de çalıştıracaktır case 8 ile*/
     case 8:
         printf("8\n");
