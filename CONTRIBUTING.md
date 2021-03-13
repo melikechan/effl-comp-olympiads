@@ -2,7 +2,7 @@
 
 > Son revize tarihi: 12 Mart 2021
 
-## Kod:
+## Kod
 
 ### Formatlama
 
