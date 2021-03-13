@@ -8,17 +8,17 @@ int main(void)
         72'yi hiçbir kalan kalmayıncaya kadar bölelim
         72 / 2 = 36 (kalan 0)
         36 / 2 = 18 (kalan 0)
-        18 / 2 = 9 (kalan 0) 
+        18 / 2 = 9 (kalan 0)
         9 / 2 = 4 (alan 1)
         4 / 2 = 2 (kalan 0)
         2 / 2 = 1 (kalan 0)
         1 / 2 = 0 (kalan 1)
         Yani, 72'yi ikilik tabanda son kalanı en başa (sondan başa) koyarak şöyle yazarız:
-        1001000 
+        1001000
 
         Bir tane de tek sayı ele alalım:
-        
-        
+
+
         */
 	return 0;
 }
