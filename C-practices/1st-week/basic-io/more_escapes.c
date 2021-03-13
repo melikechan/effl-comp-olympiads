@@ -2,25 +2,24 @@
 
 int main(void)
 {
-	// Escape karakterler, çıktıda bazı özel işlemleri yapmayı sağlar
+	/* Escape karakterleri, çıktıda bazı özel işlemleri yapmayı sağlar. */
 
-	// alarm ya da bipleme için \a
-
+	/* Alarm ya da bipleme için \a */
 	printf("Dikkat!\a\n");
 
-	// backspace için \b
+	/* Bir karakter geri gitmek için \b (backspace)*/
 	printf("Merhaba\b dunya!\n");
 
-	// imleci ekranın başına getirmek için \r
+	/* Imleci ekranın başına getirmek için \r */
 	printf("Bak\rbasa dondu!\n");
 
-	// dikey bir hareket icin \v
+	/* Dikey bir hareket için \v */
 	printf("Dikey bir\v bosluk biraktim!!\n");
 
-	// Eğik çizgi yazdırmak için
+	/* Eğik çizgi yazdırmak için iki tane koymak gerekir. */
 	printf("\\'ye bir seyler ekleyerek ozel karakterleri yazdirabiliriz.\n");
 
-	// Soru işareti yazdırmak için alternatif
+	/* Soru işareti yazdırmak için alternatif */
 	printf("Oyleyse boyle midir\?\?\?\n");
 	printf("Oyleyse boyle midir???\n");
 

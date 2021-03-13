@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	// For döngüsü, tekrarlamalı (iterative) yapılarda kullanılan bir döngüdür.
-	/* Kullanımı: 
+	/* For döngüsü, tekrarlamalı (iterative) yapılarda kullanılan bir döngüdür.
+	   Kullanımı:
         for(ilk değer/atama; koşul; arttırma/azaltma) {
             kodu buraya yazın...
         }
