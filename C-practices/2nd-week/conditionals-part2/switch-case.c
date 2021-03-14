@@ -5,7 +5,7 @@ int main(void)
     /* Switch-case, alternatif bir koşullama yöntemidir.
        Mesela bazı sabit durumlarda programımızın bir şey yapmasını istiyorsak kullanabiliriz.
         bu sabit durumlar harici durumlarda da default kullanabiliriz.
-        */
+    */
 
     int i = 8;
 
@@ -55,7 +55,7 @@ int main(void)
         break;
     }
 
-    // case bloğu'nun altındaki case altında olmayan satırlar çalıştırılmaz.
+    /* case bloğu'nun altındaki case altında olmayan satırlar çalıştırılmaz. */
     switch (i)
     {
         i += 1;
@@ -79,8 +79,8 @@ int main(void)
         break;
     }
 
-    // iki case bloğu aynı değere sahip olamaz.
-    /*switch (i)
+    /* İki case bloğu aynı değere sahip olamaz.
+    /* switch (i)
     {
     case 8:
         printf("8\n");
@@ -90,9 +90,11 @@ int main(void)
         break;
     default:
         break;
-    }*/
+    } */
 
-    // Case yani durumlar sabit bir değer olmalı. Bir değişken (sabit olmayan) koyarsak hata verir.
+    /* 	Case yani durumlar sabit bir değer olmalı. 
+		Bir değişken (sabit olmayan) koyarsak hata verir. 
+	*/
 
     /*switch (i)
     {
@@ -107,7 +109,9 @@ int main(void)
         break;
     }*/
 
-    // Ve bu sabit değerimiz enum (kullanıcı tanımlı değişken), integer ya da char olmalıdır.
+    /* 	Ve bu sabit değerimiz enum (kullanıcı tanımlı değişken), 
+		integer ya da char olmalıdır.
+	*/
     /*switch (i)
     {
     case 1.1:
