@@ -15,7 +15,9 @@ int main(void)
 
 	printf("\n");
 
-	// for döngüsü, alternatif biçimlerde de yazılabilir. Üsttekini alternatif biçimlerde yazalım
+	/* 	for döngüsü, alternatif biçimlerde de yazılabilir. 
+		Üsttekini alternatif biçimlerde yazalım:
+	*/
 
 	for (int i = 0;; i++)
 	{
@@ -36,7 +38,7 @@ int main(void)
 
 	printf("\n");
 
-	// illa bir bir artmak zorunda da değil, iki iki, üç üç de artabilir
+	/* illa bir bir artmak zorunda da değil, iki iki, üç üç de artabilir */
 
 	for (int i = 0; i < 10; i += 2)
 	{
@@ -59,7 +61,7 @@ int main(void)
 
 	printf("\n");
 
-	// ya da azalabilir
+	/* ya da azalabilir */
 
 	for (int i = 10; i > 0; i -= 3)
 	{
@@ -82,10 +84,12 @@ int main(void)
 
 	printf("\n");
 
-	// Sonsuz döngü, programın koşulu her zaman ile kodun her zaman çalışmasıdır
-	/*for (int i = 2; i != 0; i++)
+	/* 	Sonsuz döngü, programın koşulunun her zaman sağlanması 
+		ile kodun her zaman çalışmasıdır.
+	*/
+	/* for (int i = 2; i != 0; i++)
     {
         printf("%d\n", i);
-    }*/
+    } */
 	return 0;
 }
