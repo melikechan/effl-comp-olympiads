@@ -4,17 +4,18 @@
 
 int main(void)
 {
-	// Her değişkenin kapladığı bir yer vardır.
-	/*Unsigned değişkenler, pozitiftir (fakat 0 dahil). Eğer sonuç negatif ise o değerin maksimum değeri + 1 + sayi (negatif olur)
-      Maksimum değerler ise 2^(kapladığı alan (bit)) - 1 şeklinde alınabilir
-      (-1 olmasının nedeni sıfırı da dahil etmemizdir.)
-      Örneğin char değişkeni 8 bit yer kaplar. Yani, unsigned olarak maksimum 2^8 - 1 (255) alabilir.
-     */
-	/* Signed yani işareti bulunan değişkenlerde maksimum değer 2^(kapladığı alan (bit) - 1) - 1 olabilir.
-       Örneğin char değişkeni 8 bit yer kaplar. Yani, signed olarak maksimum 2^7 - 1 (127) alabilir.
-       (-1 olmasının nedeni sıfırı da dahil etmemizdir.)
-       Minimum değer ise -2^(kapladığı alan (bit) - 1) olabilir.
-      Örneğin char değişkeni 8 bit yer kaplar. Yani, signed olarak minimum -2^7 (-128) alabilir.
+	/* 	Her değişkenin kapladığı bir yer vardır. */
+	/*	Unsigned değişkenler, pozitiftir (fakat 0 dahil). 
+		Eğer sonuç negatif ise o değerin maksimum değeri + 1 + sayi (negatif olur)
+      	Maksimum değerler ise 2^(kapladığı alan (bit)) - 1 şeklinde alınabilir
+      	(-1 olmasının nedeni sıfırı da dahil etmemizdir.)
+      	Örneğin char değişkeni 8 bit yer kaplar. Yani, unsigned olarak maksimum 2^8 - 1 (255) alabilir.
+    */
+	/* 	Signed yani işareti bulunan değişkenlerde maksimum değer 2^(kapladığı alan (bit) - 1) - 1 olabilir.
+       	Örneğin char değişkeni 8 bit yer kaplar. Yani, signed olarak maksimum 2^7 - 1 (127) alabilir.
+       	(-1 olmasının nedeni sıfırı da dahil etmemizdir.)
+       	Minimum değer ise -2^(kapladığı alan (bit) - 1) olabilir.
+      	Örneğin char değişkeni 8 bit yer kaplar. Yani, signed olarak minimum -2^7 (-128) alabilir.
     */
 	printf("\nDegisken turu:\t Boyut:\t\t Minimum deger:\t\t Maximum deger:\t\t Aciklama:\t\t\n");
 	printf("--------------------------------------------------------------------------------------------\n");
