@@ -24,4 +24,9 @@ Eskişehir Fatih Fen Lisesi'nin bilgisayar olimpiyatları reposudur. Kaynaklar, 
 - [Koşullamalar](/C-practices/2nd-week/conditionals-part2)
 - [Döngüler](/C-practices/2nd-week/loops) ([while & do-while]() & [for]()),
 - [goto etiketi]()
+
+
+3. ders:
 - [Bit düzeyinde gösterim]()
+- [Preprocessor (önişlemci) komutları]()
+- [Fonksiyonlar]()
