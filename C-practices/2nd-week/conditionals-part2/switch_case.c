@@ -36,6 +36,7 @@ int main(void)
 		istiyorsak break koymayabiliriz fakat eğer yalnızca bir değer için
         o işlemi yaptıracaksak break koymalıyız.
 		örneğin: */
+
 	switch (i)
 	{
 	case 4:
@@ -79,7 +80,7 @@ int main(void)
 		break;
 	}
 
-	/* İki case bloğu aynı değere sahip olamaz.
+	/* İki case bloğu aynı değere sahip olamaz. */
     /* switch (i)
     {
     case 8:
@@ -112,7 +113,7 @@ int main(void)
 	/* 	Ve bu sabit değerimiz enum (kullanıcı tanımlı değişken), 
 		integer ya da char olmalıdır.
 	*/
-	/*switch (i)
+	/* switch (i)
     {
     case 1.1:
         printf("%d\n");
@@ -123,7 +124,7 @@ int main(void)
     default:
         printf("idk");
         break;
-    }*/
-
+    } */
+	
 	return 0;
 }

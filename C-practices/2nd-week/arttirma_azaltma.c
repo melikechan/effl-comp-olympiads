@@ -19,7 +19,7 @@ int main(void)
 
 	printf("a: %d\n", a);
 
-	b = ++a; /* once b, a'ya eşit olur, sonra da a'nın değeri bir artar. */
+	b = ++a; /* once a'nın değeri bir artar, sonra b, a'ya eşit olur,  */
 
 	printf("b: %d\n", b);
 	printf("a: %d\n", a);

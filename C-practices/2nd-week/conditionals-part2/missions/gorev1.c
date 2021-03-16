@@ -3,7 +3,7 @@
 int main(void)
 {
 	double sayi1, sayi2;
-	char islem;
+	int islem;
 
 	printf("Birinci sayiyi giriniz: ");
 	scanf("%lf", &sayi1);
@@ -12,23 +12,23 @@ int main(void)
 	scanf("%lf", &sayi2);
 
 	printf("Yapilacak islemi giriniz.\n");
-	printf("+ -> toplama - -> cikarma\n");
-	printf("* -> carpma / -> bolme\n");
-	printf("% -> modul alma: ");
-	scanf("%c", &islem);
+	printf("1 -> toplama 2 -> cikarma\n");
+	printf("3 -> carpma 4 -> bolme\n");
+	printf("5 -> modul alma: ");
+	scanf("%d", &islem);
 
 	switch (islem)
 	{
-	case '+':
+	case 1:
 		printf("%lf + %lf = %lf", sayi1, sayi2, sayi1 + sayi2);
 		break;
-	case '-':
+	case 2:
 		printf("%lf - %lf = %lf", sayi1, sayi2, sayi1 - sayi2);
 		break;
-	case '*':
+	case 3:
 		printf("%lf * %lf = %lf", sayi1, sayi2, sayi1 * sayi2);
 		break;
-	case '/':
+	case 4:
 		while (sayi2 == 0)
 		{
 			printf("ikinci sayi sifir olamaz. baska bir sayi giriniz: ");
@@ -36,8 +36,8 @@ int main(void)
 		}
 		printf("%lf / %lf = %lf", sayi1, sayi2, sayi1 / sayi2);
 		break;
-	case '%':
-		printf("%d % %d = %d", (int)sayi1, (int)sayi2, (int)sayi1 % (int)sayi2);
+	case 5:
+		printf("%d \% %d = %d", (int)sayi1, (int)sayi2, (int)sayi1 % (int)sayi2);
 
 		break;
 	default:
@@ -45,7 +45,7 @@ int main(void)
 		break;
 	}
 
-	printf("Cikmak icin ENTER tusuna basiniz...");
+	printf("\nCikmak icin ENTER tusuna basiniz...");
 	getchar();
 	return 0;
 }
