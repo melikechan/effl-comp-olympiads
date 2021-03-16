@@ -21,11 +21,11 @@ int main(void)
 	*/
 	int kosul = 0;
 
-	while (kosul < 10)
+	/* while (kosul < 10)
 	{
 		printf("kosul: %d\n", kosul);
 		kosul++;
-	}
+	} */
 
 	/* 	do-while döngüsü:
 		do-while döngüsü, while döngüsü ile aynı biçimde çalışmaktadır. 
@@ -35,11 +35,11 @@ int main(void)
 		o yapılacak işlemi çalıştırır. 
 	*/
 
-	kosul = 5;
-
+	kosul = 4;
 	do
 	{
 		printf("kosul: %d", kosul);
+		kosul++;
 	} while (kosul < 5);
 
 	return 0;
