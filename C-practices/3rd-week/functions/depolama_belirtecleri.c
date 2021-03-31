@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+static int stat = 50;
+/* 	statik değişkenler, 
+	tanımlandıkları blok ve o bloğun dışında geçerlidir. 
+	global olarak tanımlanabilirler.
+	fonksiyon tanımları arasında değerlerini korurlar.
+	bir fonksiyona parametre olarak verilemezler.
+*/
 int main(void)
 {
 	/* 	Değişkenleri/fonksiyonların depolama şeklini belirtmek
