@@ -6,7 +6,6 @@ int main(void)
 
 	int arr[] = {2, 5, 89, 3};
 
-
 	/* 	dizi[index] operatörü *(dizi + index) anlamına gelmektedir.
 		dizi ile index yer değiştirebileceğinden dolayı index[dizi] kullanımı da kullanılmaktadır.
 	*/
