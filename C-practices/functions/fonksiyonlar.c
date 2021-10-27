@@ -26,5 +26,14 @@ int main(void)
 		Main fonksiyonu, aksi belirtilmediği sürece, başlangıç noktasıdır.
 	*/
 	merhaba_dunya(10);
+
+	/* Eğer fonksiyonumuz bir değer döndürüyorsa, bunu bir değişkene atayabilirsiniz,
+	 * ya da başka bir fonksiyonu çağırmak için kullanabilirsiniz.
+	 */
+	int a = toplama(1, 2);
+	printf("1 + 2 = %d\n", a);
+
+	a = toplama(toplama(1, 2), 3);
+	printf("(1 + 2) + 3 = %d\n", a);
 	return 0;
 }
