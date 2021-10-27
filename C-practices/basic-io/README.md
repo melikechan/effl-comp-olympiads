@@ -4,7 +4,7 @@
 
 > "Merhaba dunya&nbsp;&nbsp;&nbsp;&nbsp;ben "C" programi yazabiliyorum." (birden fazla boşluk tab demektir)
 
-> "\backslash\ nasil yazdirabilirim?"
+> "\ters egik cizgi\ nasil yazdirabilirim?"
 
 > "Bir satir \
 bile "bana" \
