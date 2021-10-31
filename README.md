@@ -5,8 +5,17 @@
 
 <img src="assets/github-cover-orig-min.png">
 
-Eskişehir Fatih Fen Lisesi'nin bilgisayar olimpiyatları reposudur. Kaynaklar, kodlar buradan paylaşılacaktır. (derli toplu olması açısından)
+Eskişehir Fatih Fen Lisesi'nin bilgisayar olimpiyatları reposudur.
 
+## Yapılacaklar
+
+- [ ] Repoya yeni kapak tasarımı yapmak
+
+- [ ] Dosyaların yorumlarını düzenleyip daha açıklayıcı bir anlatıma kavuşmak
+
+- [ ] Matematik kısmını konulara bölmek, anlatım ve örnek kodu klasörlere paylaştırmak
+
+- [ } C konu anlatımını tamamlamak
 ## İçerik
 
 ### C
