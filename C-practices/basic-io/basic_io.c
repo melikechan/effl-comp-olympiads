@@ -18,7 +18,7 @@ int main(void)
 	printf("Bakin boylelikle "
 		   "ayri ayri yazi"
 		   "yazdim.\n");
-
+		   
 	/* Tırnak işareti yazdırabilmek için önüne bir \ koymanız gerek: */
 	printf("Burasi \"olimpiyat\" dersi.\n");
 	printf("Burasi \'olimpiyat\' dersi.\n");
