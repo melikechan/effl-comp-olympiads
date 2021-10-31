@@ -16,6 +16,8 @@ Eskişehir Fatih Fen Lisesi'nin bilgisayar olimpiyatları reposudur.
 - [ ] Matematik kısmını konulara bölmek, anlatım ve örnek kodu klasörlere paylaştırmak
 
 - [ } C konu anlatımını tamamlamak
+
+
 ## İçerik
 
 ### C
